@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
     inputField.addEventListener('input', function () {
         if (inputField.value.trim() === 'انا اسفه' || inputField.value.trim() === 'اسفه') {
             alert('ولا يهمك يحبيبي 🥰');
-            window.location.href = 'index.html';
+            window.location.href = 'yn.html';
         }
     });
 
