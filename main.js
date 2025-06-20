@@ -17,7 +17,7 @@ document.getElementById('login-form').addEventListener('submit', function (event
         passwordHint.style.display = 'block';
         alert('Incorrect Babe 😔. Please try again.My Lovely,I Trust You 💕');
     } else {
-        window.location.href = 'index.html';
+        window.location.href = 'yn.html';
     }
 });
 window.onload = function () {
