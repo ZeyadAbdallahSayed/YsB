@@ -1,0 +1,94 @@
+/* Home Page */
+General Styles * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    margin-top: -50px;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+h1,
+h2,
+p {
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+.home-container {
+    height: 100%;
+    padding: 50px 10%;
+    text-align: center;
+    background: #ffffff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3c1053, #ad5389);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3c1053, #ad5389);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.welcome-message {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #ff3385;
+    padding-bottom: 100px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 40px;
+}
+
+.photo {
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.photo:hover img {
+    transform: scale(1.05);
+}
+
+.photo:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.photo p {
+    padding-top: 10px;
+    margin-top: 10px;
+    color: #c2bebe;
+    font-size: 0.9rem;
+
+}
+
+.special-message {
+    font-size: 2.5rem;
+    margin-top: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.special {
+    font-size: 2rem;
+    margin-top: 40px;
+    color: #ffffff;
+    font-weight: bold;
+}

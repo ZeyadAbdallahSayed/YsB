@@ -1,0 +1,25 @@
+body {
+    direction: rtl;
+    background: #3E5151;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #DECBA4, #3E5151);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #DECBA4, #3E5151);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    margin-top: 200px;
+}
+
+h1,
+h2 {
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.inputasfa {
+    margin: 20px 500px 0 0;
+    width: 500px;
+    padding: 10px;
+    border-radius: 15px;
+    border: 3px solid rgb(0, 254, 17);
+}

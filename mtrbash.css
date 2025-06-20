@@ -1,0 +1,72 @@
+General Styles * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    border-top: 20px solid #098783;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(109, 202, 255);
+}
+
+h1 {
+    font-weight: 1000;
+    text-align: center;
+    color: #000000;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+
+h3 {
+    font-weight: 1000;
+    margin-top: -20px;
+    margin-right: 50px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+h4 {
+    font-weight: 1000;
+    margin-top: -10px;
+    text-align: center;
+    color: #b70e0e;
+    font-size: 90px;
+    font-family: fantasy;
+}
+
+button {
+    width: max-content;
+    background-color: rgb(130, 143, 68);
+    border-radius: 15px;
+    border: 2px solid rgb(44, 56, 2);
+    color: rgb(255, 255, 255);
+    font-weight: 1000;
+    font-size: 40px;
+    font-family: fantasy;
+    filter: drop-shadow(5px 5px 20px rgb(149, 255, 0));
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    padding: 10px;
+    margin-top: -50px;
+    margin: 50px 590px;
+}
+
+button:hover {
+    background-color: white;
+    font-size: larger;
+    border: 2px solid white;
+    color: rgb(82, 90, 42);
+    font-size: 40px;
+    font-family: fantasy;
+    filter: drop-shadow(1px 1px 5px aqua);
+}
+
+video {
+    margin: 20px 600px;
+    height: 300px;
+}

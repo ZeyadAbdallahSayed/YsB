@@ -1,0 +1,270 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.icon-love {
+    width: 400px;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+/*---------------------- body_left -------------------------*/
+.body_left {
+    width: 300px;
+    height: 300px;
+    left: 0;
+    bottom: 110px;
+    position: absolute;
+    z-index: 98;
+
+}
+
+p {
+    text-align: center;
+    font-family: fantasy;
+    font-size: 20px;
+    /* margin: 0 110px; */
+    color: #53045a;
+}
+
+/*---------------------- body_left -------------------------*/
+
+/*---------------------- body_center -------------------------*/
+.container .love {
+    width: 520px;
+    /* 13 * 40 */
+    height: 440px;
+    /* 11 * 40 */
+    left: 50%;
+    top: 50%;
+    position: absolute;
+    margin: -200px 0 0 -220px;
+    /*background-color: gray;*/
+}
+
+.love .block {
+    right: 0;
+    position: absolute;
+    visibility: hidden;
+    background-color: yellow;
+}
+
+.love .block div {
+    width: 52px;
+    height: 52px;
+    position: absolute;
+    /* background: url("../images/glowing-3d-heart_23-2151868810.avif") no-repeat; */
+    background-size: contain;
+    background-color: #c40908;
+    /* border: 5px solid silver; */
+    box-sizing: border-box;
+}
+
+.love a {
+    cursor: pointer;
+}
+
+
+/*---------------------- body_center -------------------------*/
+
+/*---------------------- footer -------------------------*/
+@keyframes border {
+    0% {
+        width: 0;
+    }
+
+    5% {
+        width: 5%;
+    }
+
+    10% {
+        width: 10%;
+    }
+
+    15% {
+        width: 15%;
+    }
+
+    20% {
+        width: 20%;
+    }
+
+    25% {
+        width: 25%;
+    }
+
+    30% {
+        width: 30%;
+    }
+
+    35% {
+        width: 35%;
+    }
+
+    40% {
+        width: 40%;
+    }
+
+    45% {
+        width: 45%;
+    }
+
+    50% {
+        width: 50%;
+    }
+
+    55% {
+        width: 55%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    65% {
+        width: 65%;
+    }
+
+    70% {
+        width: 70%;
+    }
+
+    75% {
+        width: 75%;
+    }
+
+    80% {
+        width: 80%;
+    }
+
+    85% {
+        width: 85%;
+    }
+
+    90% {
+        width: 90%;
+    }
+
+    95% {
+        width: 95%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+
+.footer {
+    bottom: 60px;
+    position: relative;
+    z-index: 99;
+}
+
+.footer .text {
+    width: 100%;
+}
+
+.footer .text h1 {
+    text-align: center;
+    margin: auto;
+    margin-top: -100px;
+    font-family: fantasy;
+    font-size: 50px;
+    color: #9a0606;
+
+}
+
+.footer .text h4 {
+    text-align: center;
+    margin: auto;
+    margin-top: -10px;
+    font-family: fantasy;
+    font-size: 16px;
+    color: #004755;
+
+}
+
+.typing {
+    width: 800px;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 3.5s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0
+    }
+}
+
+@keyframes cursor {
+    50% {
+        border-color: transparent
+    }
+}
+
+.footer .border .border-top {
+    /*width: 0;*/
+    /*display: inline-block;*/
+    margin-top: 50px;
+    border-top: 3px solid black;
+    transform-origin: left center;
+    -webkit-animation: border 312 linear;
+    -o-animation: border 9s linear;
+    animation: border 9s linear;
+    animation-fill-mode: both;
+    /*border-bottom: none;*/
+}
+
+.footer .border .border-bottom {
+    /*width: 0;*/
+    /*display: inline-block;*/
+    float: right;
+    border-top: 3px solid rgb(210, 4, 4);
+    transform-origin: right center;
+    -webkit-animation: border 7s linear 9s;
+    -o-animation: border 7s linear 9s;
+    animation: border 7s linear 9s;
+    animation-fill-mode: both;
+    /*border-bottom: none;*/
+}
+
+.footer .copyright {
+    width: 100%;
+    height: 30px;
+    position: absolute;
+    bottom: -30px;
+    text-align: center;
+    /*background-color: gray;*/
+
+}
+
+.copyright div {
+    width: 30%;
+    line-height: 30px;
+    display: inline-block;
+}
+
+.copyright div span {
+    color: dimgray;
+}
+
+/*---------------------- footer -------------------------*/

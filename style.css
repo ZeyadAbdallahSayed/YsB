@@ -1,0 +1,88 @@
+General Styles * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(6, 130, 130);
+}
+
+h1 {
+    text-align: center;
+    color: #b43535;
+    font-size: 60px;
+    font-family: fantasy;
+}
+
+h2 {
+    margin-top: -20px;
+    margin-left: 50px;
+    text-align: left;
+    color: #04fff7;
+    font-size: 55px;
+    font-family: fantasy;
+}
+
+h3 {
+    margin-top: -20px;
+    margin-right: 50px;
+    text-align: right;
+    color: #ff00f2;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+h4 {
+    margin-top: -30px;
+    text-align: center;
+    color: #6e0000;
+    font-size: 90px;
+    font-family: fantasy;
+}
+
+button {
+    background-color: green;
+    border-radius: 15px;
+    border: 2px solid rgb(0, 167, 167);
+    color: white;
+    font-size: 40px;
+    font-family: fantasy;
+    filter: drop-shadow(5px 5px 20px aqua);
+    cursor: pointer;
+    transition: .5s ease-in-out;
+    padding: 10px;
+    margin-top: -50px;
+}
+
+button:hover {
+    background-color: white;
+    font-size: larger;
+    border: 2px solid white;
+    color: green;
+    font-size: 40px;
+    font-family: fantasy;
+    filter: drop-shadow(1px 1px 5px aqua);
+}
+
+.buttons .nobtn {
+    background-color: #6e0000;
+    border: 2px solid rgb(167, 0, 0);
+    margin-top: 50px;
+}
+
+.buttons .nobtn:hover {
+    background-color: #ffffff;
+    color: #6e0000;
+    border: 2px solid rgb(167, 0, 0);
+    filter: drop-shadow(1px 1px 5px rgb(255, 0, 0));
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+}
