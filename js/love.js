@@ -129,4 +129,4 @@ window.onload = function () {
 
 setTimeout(() => {
     window.location.href = "gallerey.html";
-}, 21500);
+}, 23000);

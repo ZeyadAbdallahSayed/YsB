@@ -2,7 +2,7 @@ document.getElementById('login-form').addEventListener('submit', function (event
     event.preventDefault(); // Prevent form submission for demo purposes
 
     // Simulated login credentials
-    const correctUsername = 'RoRo(Lovely💕)';
+    const correctUsername = 'R2Ro2tyyyyyy(Lovely💕)';
     const correctPassword = '1-4-2025';
 
     const enteredUsername = document.getElementById('username').value;
